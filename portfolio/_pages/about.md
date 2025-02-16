@@ -13,6 +13,11 @@ My work focuses on **developing scalable and explainable AI models for medical d
 Beyond medical imaging, I have explored **AI applications in behavioral analysis and physiological data modeling**, working on projects involving **motion tracking, predictive analytics, and time-series modeling**. My research aims to bridge the gap between **AI advancements and practical clinical implementation**, ensuring machine learning models contribute meaningfully to healthcare and biomedical research.  
 
 
+<!-- Include Timeline -->
+<div id="timeline-container">
+    {% include timeline.html %}
+</div>
+ 
 
 A data-driven personal website
 ======
