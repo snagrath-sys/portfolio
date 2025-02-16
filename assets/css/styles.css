@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.timeline-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.timeline-content {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.year {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.company {
+    color: #34495e;
+}
+
+/* Animation Trigger */
+.timeline-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
