@@ -6,8 +6,8 @@
     <title>Timeline</title>
     <style>
         :root {
-            --primary-color: #FFFF;
-            --background-color: #A0A0A0;
+            --primary-color: #FFFFFF;
+            --background-color: #FFFFFF;
             --font: sans-serif;
         }
 
@@ -22,153 +22,108 @@
             font-family: var(--font);
             display: flex;
             justify-content: center;
-            align-items: center;
-            min-height: 100vh;
             padding: 20px;
         }
 
         /* Timeline Container */
         .timeline {
-            background: var(--primary-color);
-            padding: 20px;
-            border-radius: 10px;
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        /* Vertical Line */
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 20px; /* Align with circles */
+            top: 0;
+            width: 4px; /* Line thickness */
+            height: 100%;
+            background: black; /* Line color */
         }
 
         /* Card container */
         .card {
             position: relative;
-            max-width: 400px;
-            margin-bottom: 20px;
+            margin: 20px 0;
+            padding-left: 50px; /* Spacing from the timeline */
+            text-align: right; /* Right-align all content */
         }
 
-        /* Alternating Padding */
-        .card:nth-child(odd) {
-            padding: 30px 0 30px 30px;
-        }
-        .card:nth-child(even) {
-            padding: 30px 30px 30px 0;
-        }
-
-        /* Line connecting timeline points */
+        /* Circle (Timeline Dots) */
         .card::before {
             content: "";
             position: absolute;
-            width: 50%;
-            border: solid black;
+            left: 10px; /* Align with timeline */
+            top: 10px;
+            width: 12px;
+            height: 12px;
+            background: white;
+            border: 3px solid black;
+            border-radius: 50%;
         }
 
-        .card:nth-child(odd)::before {
-            left: 0px;
-            top: -4.5px;
-            bottom: -4.5px;
-            border-width: 5px 0 5px 5px;
-            border-radius: 50px 0 0 50px;
-        }
-
-        @media only screen and (max-width: 400px) {
-            .card:nth-child(odd)::before {
-                top: -5px;
-                bottom: -5px;
-            }
-        }
-
-        .card:nth-child(even)::before {
-            right: 0;
-            top: 0;
-            bottom: 0;
-            border-width: 5px 5px 5px 0;
-            border-radius: 0 50px 50px 0;
-        }
-
-        /* First and Last Card Styling */
-        .card:first-child::before {
-            border-top: 0;
-            border-top-left-radius: 0;
-        }
-        .card:last-child:nth-child(odd)::before {
-            border-bottom: 0;
-            border-bottom-left-radius: 0;
-        }
-        .card:last-child:nth-child(even)::before {
-            border-bottom: 0;
-            border-bottom-right-radius: 0;
-        }
-
-        /* Timeline Content */
+        /* Card Content */
         .info {
             display: flex;
             flex-direction: column;
-            background: #A0A0A0;
-            color: gray;
+            background: #F8F8F8;
+            color: #333;
             border-radius: 10px;
-            padding: 15px;
+            padding: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         }
 
+        /* Title */
         .title {
-            color: grey;
             font-size: 1.2em;
-            font-weight: bold;
-            position: relative;
-        }
-
-        .title2 {
-            font-size: 1em;
             font-weight: bold;
             color: black;
         }
 
+        /* Italic Subtitle */
         .title em {
             font-style: italic;
-        }
-
-        .title::before {
-            content: "";
-            position: absolute;
-            width: 10px;
-            height: 10px;
-            background: white;
-            border-radius: 50%;
-            border: 3px solid black;
-        }
-
-        .card:nth-child(even) > .info > .title {
-            text-align: right;
-        }
-
-        .card:nth-child(odd) > .info > .title::before {
-            left: -45px;
-        }
-
-        .card:nth-child(even) > .info > .title::before {
-            right: -45px;
         }
     </style>
 </head>
 <body>
 
-<div class="timeline">
-    <div class="card">
-        <div class="info">
-            <h3 class="title"><em>2023 - Present</em></h3>
-            <h3 class="title2">Machine Learning Engineer - Keck School of Medicine - USC</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="timeline">
+        <div class="card">
+            <div class="info">
+                <h3 class="title"><em>2023 - Present</em></h3>
+                <h3 class="title2">Machine Learning Engineer - Keck School of Medicine - USC</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <h3 class="title"><em>2022 - 2023</em></h3>
+                <h3 class="title2">ML Engineer - USC ISI</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <h3 class="title"><em>2021 - 2022</em></h3>
+                <h3 class="title2">Software Engineer - Juniper Networks</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <h3 class="title"><em>2020 - 2021</em></h3>
+                <h3 class="title2">Software Engineer - Oracle</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
         </div>
     </div>
-    <div class="card">
-        <div class="info">
-            <h3 class="title"><em>2022 - 2023</em></h3>
-            <h3 class="title2">Software Engineer - Juniper Networks</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="info">
-            <h3 class="title"><em>2021 - 2022</em></h3>
-            <h3 class="title2">Software Engineer - Oracle</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-    </div>
-</div>
 
 </body>
 </html>
