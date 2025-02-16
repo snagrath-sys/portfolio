@@ -6,8 +6,8 @@ redirect_from:
   - /about.html
 ---
 
-#नमस्ते
 
+#नमस्ते
 I earned my **Master’s in Computer Science** from the [Viterbi School of Engineering - University of Southern California](https://viterbischool.usc.edu/), where I worked as a researcher at [USC-ISI](https://www.isi.edu/), the [Keck School of Medicine](https://keck.usc.edu/) with **Professor Michael John Pazzani** and **Dr. Benjamin Yixing Xu**, and the [Department of Microbiology - Dornsife](https://dornsife.usc.edu/) with **Professor John Tower**. My research is centered on leveraging **machine learning for healthcare applications**, particularly in **ophthalmology and microbiology**.  
 
 My work focuses on **developing scalable and explainable AI models for medical diagnostics**, ensuring they are robust, interpretable, and clinically deployable. I have experience integrating **medical imaging standards like [DICOM](https://www.dicomstandard.org/) and [HL7](https://www.hl7.org/)**, designing **explainability pipelines**, and adapting models to diverse datasets to enhance **trust and usability in real-world settings**.  
