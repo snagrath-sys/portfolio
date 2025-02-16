@@ -6,8 +6,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
+I earned my **Master’s in Computer Science** from the [Viterbi School of Engineering - University of Southern California](https://viterbischool.usc.edu/), where I worked as a researcher at [USC-ISI](https://www.isi.edu/), the [Keck School of Medicine](https://keck.usc.edu/) with **Professor Michael John Pazzani** and **Dr. Benjamin Yixing Xu**, and the [Department of Microbiology - Dornsife](https://dornsife.usc.edu/) with **Professor John Tower**. My research is centered on leveraging **machine learning for healthcare applications**, particularly in **ophthalmology and microbiology**.  
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+My work focuses on **developing scalable and explainable AI models for medical diagnostics**, ensuring they are robust, interpretable, and clinically deployable. I have experience integrating **medical imaging standards like [DICOM](https://www.dicomstandard.org/) and [HL7](https://www.hl7.org/)**, designing **explainability pipelines**, and adapting models to diverse datasets to enhance **trust and usability in real-world settings**.  
+
+Beyond medical imaging, I have explored **AI applications in behavioral analysis and physiological data modeling**, working on projects involving **motion tracking, predictive analytics, and time-series modeling**. My research aims to bridge the gap between **AI advancements and practical clinical implementation**, ensuring machine learning models contribute meaningfully to healthcare and biomedical research.  
+
+
 
 A data-driven personal website
 ======
