@@ -19,5 +19,5 @@ Processing and analyzing 100+ hours of video data (24fps) to detect motion anoma
 Our model successfully identified falls in Drosophila, revealing critical correlations between increased fall frequency and mortality. This work lays the foundation for unbiased, automated behavioral analysis in biomedical research, enabling further studies on aging and neurodegenerative disease interventions.
 
 ![Model architecture](/portfolio/images/yolov4.png)
-![Motion analysis](/images/ActionForm.png)
+![Motion analysis](/portfolio/images/ActionForm.png)
 
