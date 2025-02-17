@@ -23,8 +23,10 @@ Beyond medical imaging, I have explored **AI applications in behavioral analysis
 &nbsp;
 
 
-<!-- Include Timeline -->
+<!-- Include Timeline 
 <div id="timeline-container">
     {% include timeline.html %}
 </div>
+ -->
+
  
