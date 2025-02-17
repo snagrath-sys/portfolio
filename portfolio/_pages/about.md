@@ -9,7 +9,7 @@ redirect_from:
 &nbsp;
 &nbsp;
 
-<span style="font-size: 18px; color:#A0A0A0;">नमस्ते</span>
+<span style="font-size: 28px; color:#606060;">Hey!</span>
 
 I earned my **Master’s in Computer Science** from the [Viterbi School of Engineering - University of Southern California](https://viterbischool.usc.edu/), where I worked as a researcher at [USC-ISI](https://www.isi.edu/), the [Keck School of Medicine](https://keck.usc.edu/) with **Professor Michael John Pazzani** and **Dr. Benjamin Yixing Xu**, and the [Department of Microbiology - Dornsife](https://dornsife.usc.edu/) with **Professor John Tower**. My research is centered on leveraging **machine learning for healthcare applications**, particularly in **ophthalmology and microbiology**.  
 
