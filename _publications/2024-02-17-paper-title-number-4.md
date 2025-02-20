@@ -1,13 +1,25 @@
 ---
-title: "Paper Title Number 4"
+title: "Fatigue Detection Using Biological Markers & Time-Series Analysis"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+# permalink: /publication/2010-10-01-paper-title-number-2
+excerpt: 'Developed a machine learning framework to detect fatigue in subjects by analyzing measurable biological parameters and their quantifiable responses over time.'
+date: 2022-12-10
+# venue: 'The journals of gerontology. Series A, Biological sciences and medical sciences'
+slidesurl: 'https://colab.research.google.com/drive/1tO7v-kZYxpxXexfADtJ_bS_wLo49pxJ3#scrollTo=XTGE9vaAYLjd'
+# paperurl: 'https://pubmed.ncbi.nlm.nih.gov/39953997/'
+# citation: 'Mattins F, Nagrath S, Fan Y, Manea TKD, Das S, Shankar A, Tower J. Machine learning scoring reveals increased frequency of falls proximal to death in Drosophila melanogaster. J Gerontol A Biol Sci Med Sci. 2025 Feb 15:glaf029. doi: 10.1093/gerona/glaf029. Epub ahead of print. PMID: 39953997.'
 ---
+The goal was to identify patterns indicative of fatigue by leveraging time-series data collected at various timestamps.
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+As the sole researcher under the guidance of Dr. Pankaj Khuranna, I handled the project end-to-end, from data wrangling to model development and result documentation. Using a sliding window approach, I generalized close timestamps and applied imputations, outlier handling, grouping, and scaling to ensure data consistency.
+
+Methodology:
+
+Algorithms Used: Benchmarked Decision Tree (DT), Random Forest (RF), AdaBoost (AB), Linear Discriminant Analysis (LDA), and k-Nearest Neighbors (kNN) for predictive modeling.
+Data Processing: Addressed missing values, noise, and temporal dependencies to enhance model accuracy.
+Results: Documented findings in a research paper (pending publication).
+Currently, I am building a full-stack prototype to present the findings in an implementable format, making the research more accessible for real-world applications.
+
+This work contributes to health monitoring by providing a data-driven approach to fatigue detection, which has potential applications in workplace safety, healthcare, and human performance analysis.
+
