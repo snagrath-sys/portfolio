@@ -1,12 +1,12 @@
 ---
-title: "Anomaly Detection in Multivariate Time-Series Data using GANsy"
+title: "Anomaly Detection in Multivariate Time-Series Data using GANs"
 collection: publications
 category: manuscripts
 # permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'Developed a robust anomaly detection framework for multivariate time-series data, leveraging Generative Adversarial Networks (GANs) and time-series forecasting. The objective was to enhance the security of Advanced Metering Infrastructure (AMI) by identifying False Data Injection Attacks (FDIA) in network traffic logs.'
 date: 2022-12-10
 # venue: 'The journals of gerontology. Series A, Biological sciences and medical sciences'
-# slidesurl: /portfolio/images/yolov4.png
+slidesurl: 'https://colab.research.google.com/drive/1U0P1gRZU5JyDsvymO2x0U3al3Z0YlaRI?usp=sharing'
 # paperurl: 'https://pubmed.ncbi.nlm.nih.gov/39953997/'
 # citation: 'Mattins F, Nagrath S, Fan Y, Manea TKD, Das S, Shankar A, Tower J. Machine learning scoring reveals increased frequency of falls proximal to death in Drosophila melanogaster. J Gerontol A Biol Sci Med Sci. 2025 Feb 15:glaf029. doi: 10.1093/gerona/glaf029. Epub ahead of print. PMID: 39953997.'
 ---
